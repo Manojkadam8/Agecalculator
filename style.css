@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/* body{
+    width: 100vh;
+    height: 100vh;
+} */
+.container{
+   margin-top:  5rem;
+   margin-left:  auto;
+   margin-right: auto;
+    background-color: red;
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.currentdate{
+    /* width: 30rem; */
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.birthdate{
+    display: flex;
+    margin-left: 6rem;
+}
+.birthdate h2{
+   margin-left: -5rem;
+}
+.birthdate select{
+   margin-left: 1rem;
+   width: 4rem;
+   height: 2.2rem;
+   border-radius: 0.2rem;
+}
+.birthdate input{
+   margin-left: 1rem;
+   width: 6rem;
+   height: 2.2rem;
+   border-radius: 0.2rem;
+   text-align: center;
+}
+.currentdate{
+
+    margin-top: -1rem;
+    margin-left: 8.7rem;
+}
+.currentdate h2{
+    margin-left: -7.5rem;
+}
+.currentdate select{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+ }
+ .currentdate input{
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+    text-align: center;
+ }
+.btn{
+    margin-top: -4rem;
+    width: 6rem;
+    height: 3rem;
+    font-size: large;
+    margin-left: -2rem;
+    border-radius: 0.5rem;
+
+}
+.dblock{
+    display: none;
+}
+.errorbd{
+    width: 12rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* background-color: aqua; */
+    color: rgb(13, 14, 14);
+    font-size: larger;
+    text-align: center;
+}
+.errorcd{
+    width: 12rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* background-color: aqua; */
+    color: rgb(13, 14, 14);
+    font-size: larger;
+    text-align: center;
+}
+
+.result{
+ 
+    margin-left:  auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+    font-size: x-large;
+}
